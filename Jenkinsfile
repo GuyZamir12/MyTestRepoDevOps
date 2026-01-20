@@ -25,11 +25,4 @@ pipeline {
             }
         }
     }
-
-    post {
-        always {
-            // Automatically reports success/failure back to the GitHub PR UI
-            echo "Build finished. Status reported to GitHub."
-        }
-    }
 }
